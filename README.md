@@ -1,6 +1,6 @@
-# Smarter-initialization-of-the-centroids-for-Kmeans
+# K-means++ algorithm
 
-This repository contains the implementation of the K Means algorithm in Python, 
+This repository contains the implementation of the K-Means++ algorithm in Python, 
 integrated with the K-means algorithm that will be ported to a C extension using the C API.
 
 ## About
