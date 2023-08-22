@@ -63,3 +63,13 @@ To build the Python extension:
 For example, run : ```python3 kmeans_pp.py 3 100 0.01 input_1.txt input_2.txt```
 *  Don’t compile the C module with gcc.
 
+## Bonus file
+This section covers involves working with matplotlib. The goal of this program is to demonstrate the use of the elbow method to determine the optimal number of clusters
+for the k-means clustering.
+The idea of the elbow method is to run k-means clustering with a range of values of k and for
+each value of k calculate the inertia. Then, plot a line chart of the inertia for each corresponding
+value of k. If the line chart looks like an arm, then the "elbow" on the arm is the value of k that is
+the best.
+This program is only produce an output elbow.png in the program folder.
+
+
