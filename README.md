@@ -22,7 +22,8 @@ where a point x is chosen with probability proportional to P(x_l) = D(x_l)/sumOf
 
 
 ## Description
-1. kmeans_pp.py: The main interface. It contains all of the command line argument interface, reading the data, the Numpy, K-means++ implementation, the
+## 1. kmeans_pp.py:
+The main interface. It contains all of the command line argument interface, reading the data, the Numpy, K-means++ implementation, the
 interface with your C extension and outputting the results.
 
 - Reading user CMD arguments:
@@ -38,7 +39,8 @@ interface with your C extension and outputting the results.
 arguments, getting the final centroids that returned by fit() and outputting the results.
 
 
-3. kmeansmodule.c: A C extension containing the K-means algorithm implementation (appears in another repository called 'Kmeans Clustering').
+## 2. kmeansmodule.c:
+A C extension containing the K-means algorithm implementation (appears in another repository called 'Kmeans Clustering').
 Step 1 of the algorithm (finding the initial centroids) is replaced by the values obtained from the K-means++ algorithm implemented in kmeans_pp.py.
 The final module (as seen in Python) is named mykmeanssp.
 The module API provides a function called fit():
@@ -46,7 +48,8 @@ The module API provides a function called fit():
 (b) Skip step 1 from Kmeans algorithm and run Kmeans algorithm.
 (c) Return the final centroids.
 
-4. setup.py: The setup file which allows kmeans_pp.py to import mykmeanssp.
+## 3. setup.py: 
+The setup file which allows kmeans_pp.py to import mykmeanssp.
 
 ## Output:
 • The first line will be the indices of the observations chosen by the K-means++ algorithm as the initial centroids. 
