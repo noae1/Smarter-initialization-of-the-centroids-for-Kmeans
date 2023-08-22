@@ -60,10 +60,3 @@ To build the Python extension:
 For example, run : ```python3 kmeans_pp.py 3 100 0.01 input_1.txt input_2.txt```
 *  Don’t compile the C module with gcc.
 
-
-
-
-
-
-
-* Each function's worst case time complexity is detailed both in the code and in a separate document. 
