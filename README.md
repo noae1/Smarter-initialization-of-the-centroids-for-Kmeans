@@ -1,7 +1,7 @@
 # K-means++ algorithm
 
 This repository contains the implementation of the K-Means++ algorithm in Python, 
-integrated with the K-means algorithm that will be ported to a C extension using the C API.
+integrated with the K-means algorithm that is ported to a C extension using the C API.
 
 ## About
 This algorithm ensures a smarter initialization of the centroids and improves the quality of the clustering.
